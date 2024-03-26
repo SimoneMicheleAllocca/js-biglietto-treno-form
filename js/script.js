@@ -1,8 +1,16 @@
 const sendBtn = document.getElementById("send");
     console.log(sendBtn);
+    
+    
+
 
 sendBtn.addEventListener("click", function(){
 
+const nameInputElem = document.getElementById("name");
+    console.log(nameInputElem);
+
+const nameValue = nameInputElem.value;
+    console.log(nameValue);
 
 const kmInputElem = document.getElementById("km");
     console.log(kmInputElem);
@@ -35,6 +43,8 @@ console.log(priceDiscount);
 const finalPrice= priceDiscount.toFixed(2);
     resultMessage = "Il tuo biglietto costerà: " + finalPrice;
 
-    document.getElementById("testo-biglietto").innerHTML = resultMessage;
-
+    document.getElementById("username").innerHTML = nameValue;
+    document.getElementById("user-km").innerHTML = kmValue;
+    document.getElementById("età").innerHTML = ageValue;
+    document.getElementById("price-ticket").innerHTML = resultMessage;
 });

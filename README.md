@@ -25,10 +25,10 @@ Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagi
 - [x] Chiediamo all'utente l'età
 
 ##### 6 - Esecuzione logica
-- [ ] Calcoliamo il costo del biglietto
-- [ ] Calcoliamo se l'utente è minorenne o over 65 
-- [ ]  Applichiamo il relativo sconto
-- [ ] calcoliamo il prezzo del biglietto
+- [x] Calcoliamo il costo del biglietto
+- [x] Calcoliamo se l'utente è minorenne o over 65 
+- [x]  Applichiamo il relativo sconto
+- [x] calcoliamo il prezzo del biglietto
 
 ### 6.OUTPUT
-- [ ] Stampiamo il prezzo del biglietto in forma umana
+- [x] Stampiamo il prezzo del biglietto in forma umana
